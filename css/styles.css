@@ -23,6 +23,11 @@ body {
     font-size: 16px;
 }
 
+/*Ajustando ancho y alto del header*/
+header {
+    height: 8rem;
+    width: 100%;
+}
 
 /*Retirando el under_line los enlaces del header*/
 header a {
@@ -33,6 +38,7 @@ header nav ul {
     list-style-type: none;
     
 }
+
 
 /*Definiendo estilos al titulo principal*/
 header div.logo-container a.logo h1.titulo-principal {
@@ -99,7 +105,7 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 
 /*Alineando elementos de la cabecera*/
 .logo {
-    display: block;
+    display: inline-block;
 }
 
 .logo-container .logo {
@@ -118,7 +124,7 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 }
 
 .cabecera {
-   
-    
+    display: flex;
+    justify-content: space-between;
 }
 
