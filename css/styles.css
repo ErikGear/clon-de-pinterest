@@ -61,8 +61,27 @@ Estilos para los botones de
 - Iniciar Sesión
 - Registrate  
 */
-header nav.navegacion-principal ul.nv-container li.ul-item {
+header nav.navegacion-principal ul.nv-container li.boton {
     border-radius: 2.4rem;
+    min-width: 6rem;
+    min-height: 4rem;
+}
+
+/*Agregando estilos a cada boton de forma individual*/
+.bt-sesion{
+    background-color: #e60023;
+}
+header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
+    color: #ffffff;
+    text-align: center;
+}
+
+.bt-registro{
+    background-color: #efefef;
+
+}
+header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item {
+    text-align: center;
 }
 
 
