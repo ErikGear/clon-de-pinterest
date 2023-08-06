@@ -97,3 +97,28 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
     transition: all 85ms ease-out;
 }
 
+/*Alineando elementos de la cabecera*/
+.logo {
+    display: block;
+}
+
+.logo-container .logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.titulo-principal {
+    margin-left: 0.4rem;
+}
+
+.navegacion-principal .nv-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecera {
+   
+    
+}
+
