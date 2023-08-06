@@ -1,0 +1,20 @@
+
+
+html {
+
+    /*Agregando Hack para resetear el valor de la unidad rem de 16px a 10px por rem*/
+    font-size: 62.5%;
+    
+    /*Agregando Hack para dar solución al Modelo de Caja*/
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    /*Segunda parte del hack para resetear la unidad em*/
+    font-size: 16px;
+}
+
