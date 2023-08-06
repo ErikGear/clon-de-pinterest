@@ -13,6 +13,7 @@ TECNOLOGÍAS A EMPLEAR
 |            | ids        |
 |            | FlexBox    |
 |            | CSS Grid   |
+|            | Animaciones |
 
 
 
