@@ -112,7 +112,6 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
     display: flex;
     justify-content: center;
     margin-left: 2rem;
-    margin-top: 2rem;
 }
 .titulo-principal {
     margin-left: 0.4rem;
@@ -126,5 +125,6 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 .cabecera {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
