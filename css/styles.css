@@ -27,6 +27,10 @@ body {
 header {
     height: 8rem;
     width: 100%;
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+    padding-bottom: 1.6rem;
+    padding-top: 1.6rem;
 }
 
 /*Retirando el under_line los enlaces del header*/
@@ -111,7 +115,7 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 .logo-container .logo {
     display: flex;
     justify-content: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 .titulo-principal {
     margin-left: 0.4rem;
