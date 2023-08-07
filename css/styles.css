@@ -83,6 +83,21 @@ header nav.navegacion-principal ul.nv-container li.boton {
     height: 4rem;
 }
 
+/*Agregando efecto de sombrado al pasar por encima de los botones*/
+.bg-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.4rem;
+    width: 10.5rem;
+    height: 4rem;
+}
+
+.bg-boton:hover {
+    background-color: rgba(17, 17, 17, 0.4);
+    transition: all 85ms ease-out;
+}
+
 /*Agregando estilos a cada boton de forma individual*/
 .bt-sesion{
     background-color: #e60023;
@@ -104,13 +119,11 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item {
 /*Añadiendo Pseudo clases a los botones de Inciar Sesión y Registro*/
 header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item:hover {
    text-decoration: none;
-   background-color: rgba(17, 17, 17, 0.4);
-   transition: all 85ms ease-out;
+   
 }
 header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
     text-decoration: none;
-    background-color: rgba(17, 17, 17, 0.4);
-    transition: all 85ms ease-out;
+    
 }
 
 /*Alineando elementos de la cabecera*/
