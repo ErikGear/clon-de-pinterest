@@ -43,6 +43,13 @@ header nav ul {
     
 }
 
+/*Centrando los enlaces dentro de los li*/
+header nav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*Definiendo estilos al titulo principal*/
 header div.logo-container a.logo h1.titulo-principal {
@@ -73,7 +80,7 @@ Estilos para los botones de
 */
 header nav.navegacion-principal ul.nv-container li.boton {
     border-radius: 2.4rem;
-    min-width: 6rem;
+    min-width: 6.5rem;
     min-height: 4rem;
 }
 
@@ -120,6 +127,7 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 .titulo-principal {
     margin-left: 0.4rem;
 }
+
 
 .navegacion-principal .nv-container {
     display: flex;
