@@ -181,6 +181,8 @@ p.text-blue {
     color: rgb(0, 118, 211);
     animation-name: animation-blue;
     animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
     z-index: 4;
 }
 @keyframes animation-blue {
@@ -197,6 +199,7 @@ p.text-green {
     color: rgb(97, 140, 123);
     animation-name: animacion-green;
     animation-duration: 5s;
+    animation-timing-function: ease;
     animation-delay: 2s;
     z-index: 3;
 }
@@ -214,6 +217,7 @@ p.text-brown {
     color: rgb(194, 139, 0);
     animation-name: animation-brown;
     animation-duration: 5s;
+    animation-timing-function: ease;
     animation-delay: 2s;
     z-index: 2;
 }
@@ -231,6 +235,7 @@ p.text-strong-green {
     color: rgb(64, 122, 87);
     animation-name: animation-strong-green;
     animation-duration: 5s;
+    animation-timing-function: ease;
     animation-delay: 2s;
     z-index: 1;
 }
