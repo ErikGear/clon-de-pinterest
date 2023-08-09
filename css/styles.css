@@ -155,3 +155,21 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
     align-items: center;
 }
 
+/*Definiedo estilos a los elementos de la sección principal*/
+h2.home-title {
+    color: rgb(33, 25, 34);
+    margin: 0.2rem;
+    font-size: 6rem;
+    font-weight: 600;
+    font-family: var(--fuenteCabecera);
+    text-align: center;
+}
+
+p.marquee-text {
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    font-family: var(--fuenteCabecera);
+    
+}
