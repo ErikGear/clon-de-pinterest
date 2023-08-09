@@ -166,6 +166,7 @@ h2.home-title {
 }
 
 p.marquee-text {
+    position: absolute;
     font-size: 6rem;
     font-weight: 600;
     text-align: center;
@@ -175,28 +176,80 @@ p.marquee-text {
 }
 
 /*Definiendo color a los parrafos*/
+/*Añadiendo Animación*/
 p.text-blue {
     color: rgb(0, 118, 211);
+    animation-name: animation-blue;
+    animation-duration: 5s;
+    z-index: 4;
 }
+@keyframes animation-blue {
+    from {
+        transform: translateY(8rem);
+    }
+
+    to {
+        transform: translateY(-8rem);
+    }
+}
+
 p.text-green {
     color: rgb(97, 140, 123);
+    animation-name: animacion-green;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    z-index: 3;
 }
+@keyframes animation-green {
+    from {
+        transform: translateY(8rem);
+    }
+
+    to {
+        transform: translateY(-8rem);
+    }
+}
+
 p.text-brown {
     color: rgb(194, 139, 0);
+    animation-name: animation-brown;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    z-index: 2;
 }
+@keyframes animation-brown {
+    from {
+        transform: translateY(8rem);
+    }
+
+    to {
+        transform:translateY(-8rem);
+    }
+}
+
 p.text-strong-green {
     color: rgb(64, 122, 87);
+    animation-name: animation-strong-green;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    z-index: 1;
 }
+@keyframes animation-strong-green {
+    from {
+        transform: translateY(8rem);
+    }
 
-/*Animación*/
-
-
+    to {
+        transform: translateY(-8rem);
+    }
+}
 
 
 /*
 Agregando alineación  al elemento h2 y p
 */
 .text-ideas {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
