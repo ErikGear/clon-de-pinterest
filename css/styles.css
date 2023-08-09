@@ -180,12 +180,13 @@ p.marquee-text {
 p.text-blue {
     color: rgb(0, 118, 211);
     animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-    animation-duration: 5s;
+    animation-duration: 5s; /*Define la duración de la animación*/
     animation-timing-function: ease; /*Define la velocidad de la animación*/
     animation-iteration-count: infinite; /*Define la duración de la animación*/
     z-index: 4;
 }
-@keyframes animation-blue {
+@keyframes animation-blue { /*Un KeyFrame define los diferentes puntos 
+    en los cuales se desarrollara la animación*/
     from {
         transform: translateY(8rem);
     }
