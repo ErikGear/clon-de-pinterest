@@ -171,5 +171,27 @@ p.marquee-text {
     text-align: center;
     width: 100%;
     font-family: var(--fuenteCabecera);
-    
+
+}
+
+/*Definiendo color a los parrafos*/
+p.text-blue {
+    color: rgb(0, 118, 211);
+}
+p.text-green {
+    color: rgb(97, 140, 123);
+}
+p.text-brown {
+    color: rgb(194, 139, 0);
+}
+p.text-strong-green {
+    color: rgb(64, 122, 87);
+}
+
+/*
+Agregando alineación  al elemento h2 y p
+*/
+.separator {
+    display: flex;
+    flex-direction: column;
 }
