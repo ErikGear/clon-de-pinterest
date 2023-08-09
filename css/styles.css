@@ -188,10 +188,15 @@ p.text-strong-green {
     color: rgb(64, 122, 87);
 }
 
+/*Animación*/
+
+
+
+
 /*
 Agregando alineación  al elemento h2 y p
 */
-.separator {
+.text-ideas {
     display: flex;
     flex-direction: column;
 }
