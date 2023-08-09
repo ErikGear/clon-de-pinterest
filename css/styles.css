@@ -179,10 +179,10 @@ p.marquee-text {
 /*Añadiendo Animación*/
 p.text-blue {
     color: rgb(0, 118, 211);
-    animation-name: animation-blue;
+    animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
     animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
+    animation-timing-function: ease; /*Define la velocidad de la animación*/
+    animation-iteration-count: infinite; /*Define la duración de la animación*/
     z-index: 4;
 }
 @keyframes animation-blue {
