@@ -1,75 +1,76 @@
 :root {
-    --textoCabecera: #rgb(17, 17, 17);
-    --fuenteCabecera: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    
+  --textoCabecera: #rgb(17, 17, 17);
+  --fuenteCabecera: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    Helvetica, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 html {
+  /*Agregando Hack para resetear el valor de la unidad rem de 16px a 10px por rem*/
+  font-size: 62.5%;
 
-    /*Agregando Hack para resetear el valor de la unidad rem de 16px a 10px por rem*/
-    font-size: 62.5%;
-    
-    /*Agregando Hack para dar solución al Modelo de Caja*/
-    box-sizing: border-box;
+  /*Agregando Hack para dar solución al Modelo de Caja*/
+  box-sizing: border-box;
 }
 
-*, *::before, *::after {
-    box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
-    /*Segunda parte del hack para resetear la unidad em*/
-    font-size: 16px;
+  /*Segunda parte del hack para resetear la unidad em*/
+  font-size: 16px;
 }
 
 /*Ajustando ancho y alto del header*/
 header {
-    height: 8rem;
-    width: 100%;
-    padding-left: 1.6rem;
-    padding-right: 1.6rem;
-    padding-bottom: 1.6rem;
-    padding-top: 1.6rem;
+  height: 8rem;
+  width: 100%;
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+  padding-bottom: 1.6rem;
+  padding-top: 1.6rem;
 }
 
 /*Retirando el under_line los enlaces del header*/
 header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header nav ul {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 
 /*Centrando los enlaces dentro de los li*/
 header nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 /*Definiendo estilos al titulo principal*/
 header div.logo-container a.logo h1.titulo-principal {
-    color: #cc0000;
-    font-family: var(--fuenteCabecera);
-    font-size: 2rem;
-    font-weight: 600;
+  color: #cc0000;
+  font-family: var(--fuenteCabecera);
+  font-size: 2rem;
+  font-weight: 600;
 }
-
 
 /*Definiendo estilos s los enlaces de la navegación principal*/
 header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item {
-    color: var(--textoCabecera);
-    font-family: var(--fuenteCabecera);
-    font-weight: 600;
+  color: var(--textoCabecera);
+  font-family: var(--fuenteCabecera);
+  font-weight: 600;
 }
 
 /*Agregando Pseudo clase a los elementos de la navegación principal*/
 header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item:hover {
-    text-decoration: underline;
-    transition: all 85ms ease-out;
+  text-decoration: underline;
+  transition: all 85ms ease-out;
 }
 
 /*
@@ -78,184 +79,157 @@ Estilos para los botones de
 - Registrate  
 */
 header nav.navegacion-principal ul.nv-container li.boton {
-    border-radius: 2.4rem;
-    width: 10.5rem;
-    height: 4rem;
+  border-radius: 2.4rem;
+  width: 10.5rem;
+  height: 4rem;
 }
 
 /*Agregando efecto de sombrado al pasar por encima de los botones*/
 .bg-boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 2.4rem;
-    width: 10.5rem;
-    height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.4rem;
+  width: 10.5rem;
+  height: 4rem;
 }
 
 .bg-boton:hover {
-    background-color: rgba(17, 17, 17, 0.4);
-    transition: all 85ms ease-out;
+  background-color: rgba(17, 17, 17, 0.4);
+  transition: all 85ms ease-out;
 }
 
 /*Agregando estilos a cada boton de forma individual*/
-.bt-sesion{
-    background-color: #e60023;
+.bt-sesion {
+  background-color: #e60023;
 }
 header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
-    color: #ffffff;
-    text-align: center;
+  color: #ffffff;
+  text-align: center;
 }
 
-.bt-registro{
-    background-color: #efefef;
-
+.bt-registro {
+  background-color: #efefef;
 }
 header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item {
-    text-align: center;
+  text-align: center;
 }
-
 
 /*Añadiendo Pseudo clases a los botones de Inciar Sesión y Registro*/
 header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item:hover {
-   text-decoration: none;
-   
+  text-decoration: none;
 }
 header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
 
 /*Alineando elementos de la cabecera*/
 .logo {
-    display: inline-block;
+  display: inline-block;
 }
 
 .logo-container .logo {
-    display: flex;
-    justify-content: center;
-    margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 1rem;
 }
 .titulo-principal {
-    margin-left: 0.4rem;
+  margin-left: 0.4rem;
 }
 
-
 .navegacion-principal {
-    width: 50rem;
+  width: 50rem;
 }
 
 .navegacion-principal .nv-container {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .cabecera {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*Definiedo estilos a los elementos de la sección principal*/
 h2.home-title {
-    color: rgb(33, 25, 34);
-    margin: 0.2rem;
-    font-size: 6rem;
-    font-weight: 600;
-    font-family: var(--fuenteCabecera);
-    text-align: center;
+  color: rgb(33, 25, 34);
+  margin: 0.2rem;
+  font-size: 6rem;
+  font-weight: 600;
+  font-family: var(--fuenteCabecera);
+  text-align: center;
 }
 
 p.marquee-text {
-    position: absolute;
-    font-size: 6rem;
-    font-weight: 600;
-    text-align: center;
-    width: 100%;
-    font-family: var(--fuenteCabecera);
-
+  position: absolute;
+  font-size: 6rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  font-family: var(--fuenteCabecera);
 }
 
 /*Definiendo color a los parrafos*/
-/*Añadiendo Animación*/
-p.text-blue {
-    color: rgb(0, 118, 211);
-    animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-    animation-duration: 5s; /*Define la duración de la animación*/
-    animation-timing-function: ease; /*Define la velocidad de la animación*/
-    animation-iteration-count: infinite; /*Define la duración de la animación*/
-    z-index: 4;
-}
-@keyframes animation-blue { /*Un KeyFrame define los diferentes puntos 
-    en los cuales se desarrollara la animación*/
-    from {
-        transform: translateY(8rem);
-    }
 
-    to {
-        transform: translateY(-8rem);
-    }
+p.text-blue {
+  color: rgb(0, 118, 211);
 }
 
 p.text-green {
-    color: rgb(97, 140, 123);
-    animation-name: animacion-green;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 2s;
-    z-index: 3;
-}
-@keyframes animation-green {
-    from {
-        transform: translateY(8rem);
-    }
-
-    to {
-        transform: translateY(-8rem);
-    }
+  color: rgb(97, 140, 123);
 }
 
 p.text-brown {
-    color: rgb(194, 139, 0);
-    animation-name: animation-brown;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 2s;
-    z-index: 2;
-}
-@keyframes animation-brown {
-    from {
-        transform: translateY(8rem);
-    }
-
-    to {
-        transform:translateY(-8rem);
-    }
+  color: rgb(194, 139, 0);
 }
 
 p.text-strong-green {
-    color: rgb(64, 122, 87);
-    animation-name: animation-strong-green;
-    animation-duration: 5s;
-    animation-timing-function: ease;
-    animation-delay: 2s;
-    z-index: 1;
+  color: rgb(64, 122, 87);
 }
-@keyframes animation-strong-green {
+
+/*Añadiendo Animaciones a los parrafos*/
+p.text-animation-blue {
+  animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
+  animation-duration: 5s; /*Define la duración de la animación*/
+  animation-timing-function: ease; /*Define la velocidad de la animación*/
+  animation-iteration-count: infinite; /*Define la duración de la animación*/
+}
+@keyframes animation-blue {
     from {
         transform: translateY(8rem);
     }
-
     to {
         transform: translateY(-8rem);
     }
 }
 
+p.text-animation-green {
+    animation-delay: animation-green;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+p.text-animation-brown {
+    animation-name: animation-brown;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+p.text-animation-strong-green {
+    animation-name: animation-green-strong;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
 
 /*
 Agregando alineación  al elemento h2 y p
 */
 .text-ideas {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
