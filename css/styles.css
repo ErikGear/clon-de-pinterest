@@ -191,9 +191,9 @@ p.text-strong-green {
 /*Añadiendo Animaciones a los parrafos*/
 p.text-animation-blue {
   animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-  animation-duration: 5s; /*Define la duración de la animación*/
+  animation-duration: 5s; /*Define la duración de la transición animación*/
   animation-timing-function: ease; /*Define la velocidad de la animación*/
-  animation-iteration-count: infinite; /*Define la duración de la animación*/
+  animation-iteration-count: infinite; /*Define la duración total de la animación*/
   animation-delay: 10s; /*Define el retardo de la animación*/
 }
 @keyframes animation-blue {
