@@ -194,6 +194,7 @@ p.text-animation-blue {
   animation-duration: 5s; /*Define la duración de la animación*/
   animation-timing-function: ease; /*Define la velocidad de la animación*/
   animation-iteration-count: infinite; /*Define la duración de la animación*/
+  animation-delay: 10s; /*Define el retardo de la animación*/
 }
 @keyframes animation-blue {
     from {
@@ -209,6 +210,15 @@ p.text-animation-green {
     animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes animation-green {
+    from {
+        transform: translateY(8rem);
+    }
+    to {
+        transform: translateY(-8rem);
+    }
 }
 
 p.text-animation-brown {
@@ -216,6 +226,15 @@ p.text-animation-brown {
     animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes animation-brown {
+    from {
+        transform: translateY(8rem);
+    }
+    to {
+        transform: translateY(-8rem);
+    }
 }
 
 p.text-animation-strong-green {
@@ -223,6 +242,15 @@ p.text-animation-strong-green {
     animation-duration: 5s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+    animation-delay: 10s;
+}
+@keyframes animation-green-strong {
+    from {
+        transform: translateY(8rem);
+    }
+    to {
+        transform: translateY(-8rem);
+    }
 }
 
 /*
