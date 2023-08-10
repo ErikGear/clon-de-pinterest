@@ -191,30 +191,31 @@ p.text-strong-green {
 /*Añadiendo Animaciones a los parrafos*/
 p.text-animation-blue {
   animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-  animation-duration: 5s; /*Define la duración de la transición animación*/
-  animation-timing-function: ease; /*Define la velocidad de la animación*/
-  animation-iteration-count: infinite; /*Define la duración total de la animación*/
-  animation-delay: 10s; /*Define el retardo de la animación*/
+  animation-duration: 5s; /*Define la duración de la transición de animación*/
+  animation-timing-function: ease-in; /*Define la curva de aceleración de la animación*/
+  animation-iteration-count: infinite; /*Define las veces que se ejecutara la animación*/
+  animation-delay: 3s; /*Define el retardo de la animación*/
 }
-@keyframes animation-blue {
+@keyframes animation-blue { /*Los KeyFrames permiten controlar el flujo de la animación*/
     from {
-        transform: translateY(8rem);
+        transform: translateY(0rem);
     }
     to {
         transform: translateY(-8rem);
     }
 }
 
+
 p.text-animation-green {
-    animation-delay: animation-green;
+    animation-name: animation-green;
     animation-duration: 5s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 3s;
 }
 @keyframes animation-green {
     from {
-        transform: translateY(8rem);
+        transform: translateY(0rem);
     }
     to {
         transform: translateY(-8rem);
@@ -224,13 +225,13 @@ p.text-animation-green {
 p.text-animation-brown {
     animation-name: animation-brown;
     animation-duration: 5s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 3s;
 }
 @keyframes animation-brown {
     from {
-        transform: translateY(8rem);
+        transform: translateY(0rem);
     }
     to {
         transform: translateY(-8rem);
@@ -240,13 +241,14 @@ p.text-animation-brown {
 p.text-animation-strong-green {
     animation-name: animation-green-strong;
     animation-duration: 5s;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
-    animation-delay: 10s;
+    animation-delay: 3s;
+    
 }
 @keyframes animation-green-strong {
     from {
-        transform: translateY(8rem);
+        transform: translateY(0rem);
     }
     to {
         transform: translateY(-8rem);
