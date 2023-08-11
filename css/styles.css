@@ -189,13 +189,27 @@ p.text-strong-green {
 }
 
 /*Añadiendo Animaciones a los parrafos*/
-p.text-animation-blue {
+p.text-animation {
   animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
   animation-duration: 5s; /*Define la duración de la transición de animación*/
   animation-timing-function: ease-in; /*Define la curva de aceleración de la animación*/
   animation-iteration-count: infinite; /*Define las veces que se ejecutara la animación*/
-  animation-delay: 3s; /*Define el retardo de la animación*/
 }
+
+.text-animation:nth-child(1){
+    animation-delay: 0s;
+}
+.text-animation:nth-child(2) {
+    animation-delay: 2s;
+}
+.text-animation:nth-child(3) {
+    animation-delay: 3s;
+}
+.text-animation:nth-child(4) {
+    animation-delay: 4s;
+}
+
+
 @keyframes animation-blue { /*Los KeyFrames permiten controlar el flujo de la animación*/
     from {
         transform: translateY(0rem);
@@ -206,54 +220,6 @@ p.text-animation-blue {
 }
 
 
-p.text-animation-green {
-    animation-name: animation-green;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
-@keyframes animation-green {
-    from {
-        transform: translateY(0rem);
-    }
-    to {
-        transform: translateY(-8rem);
-    }
-}
-
-p.text-animation-brown {
-    animation-name: animation-brown;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
-@keyframes animation-brown {
-    from {
-        transform: translateY(0rem);
-    }
-    to {
-        transform: translateY(-8rem);
-    }
-}
-
-p.text-animation-strong-green {
-    animation-name: animation-green-strong;
-    animation-duration: 5s;
-    animation-timing-function: ease-in;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-    
-}
-@keyframes animation-green-strong {
-    from {
-        transform: translateY(0rem);
-    }
-    to {
-        transform: translateY(-8rem);
-    }
-}
 
 /*
 Agregando alineación  al elemento h2 y p
