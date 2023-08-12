@@ -189,41 +189,49 @@ p.text-strong-green {
 }
 
 /*Añadiendo Animaciones a los parrafos*/
-p.text-animation {
-  animation-name: animation-blue; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-  animation-duration: 10s; /*Define la duración de la transición de animación*/
-  animation-timing-function: ease; /*Define la curva de aceleración de la animación*/
+.text-animation {
+  animation-name: animation-paragraph; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
+  animation-duration: 8s; /*Define la duración de la transición de animación*/
+  animation-timing-function: ease-out; /*Define la curva de aceleración de la animación*/
   animation-iteration-count: infinite; /*Define las veces que se ejecutara la animación*/
+  animation-delay: 3s; /*Define el retardo de la animación al cargar la página*/
 }
 
 /*Seleccionando cada elemento html con la clase .text-animation por indice*/
-.text-animation:nth-child(1){
-    animation-delay: 0s;
+p.text-animation:nth-child(1){
+    animation-delay: 3s;
     opacity: 0;
 }
-.text-animation:nth-child(2) {
-    animation-delay: 4s;
+p.text-animation:nth-child(2) {
+    animation-delay: 7s;
     opacity: 0;
 }
-.text-animation:nth-child(3) {
-    animation-delay: 8s;
+p.text-animation:nth-child(3) {
+    animation-delay: 13s;
     opacity: 0;
 }
-.text-animation:nth-child(4) {
-    animation-delay: 12s;
+p.text-animation:nth-child(4) {
+    animation-delay: 19s;
     opacity: 0;
 }
 
 
-@keyframes animation-blue { /*Los KeyFrames permiten controlar el flujo de la animación*/
-    from {
+@keyframes animation-paragraph { /*Los KeyFrames permiten controlar el flujo de la animación*/
+    0% {
         opacity: 0;
         transform: translateY(0rem);
     }
-    to {
+    25%, 50% {
         opacity: 1;
         transform: translateY(-8rem);
     }
+
+    75%, 100% {
+        opacity: 0;
+        transform: translateY(8rem);;
+    }
+
+    
 }
 
 
