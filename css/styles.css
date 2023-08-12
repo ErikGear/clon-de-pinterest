@@ -260,6 +260,12 @@ div.bg-boton-flotante {
 /*
 Estructurando la navegacion de las imagenes y texto animados
 */
+
+/*Agregando separación superior (top) al main*/
+main {
+  margin-top: 12rem;
+}
+
 .boton-menu {
   height: 6rem;
   width: 65%;
