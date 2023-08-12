@@ -244,3 +244,40 @@ Agregando alineación  al elemento h2 y p
   display: flex;
   flex-direction: column;
 }
+
+
+/*
+Estructurando la navegacion de las imagene y texto animados
+*/
+.separator {
+  height: calc(30vh + 5rem);
+  width: 100%;
+}
+
+.boton-menu {
+  height: 6rem;
+  width: 65%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu-flotante {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding: 0;
+}
+
+.boton {
+  display: inline-block;
+  padding: 0.5rem;
+  height: 1rem;
+  border-radius: 5rem;
+  margin: 0.6rem;
+  outline: none;
+  border-style: none;
+}
