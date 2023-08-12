@@ -234,8 +234,6 @@ p.text-animation:nth-child(4) {
     
 }
 
-
-
 /*
 Agregando alineación  al elemento h2 y p
 */
@@ -243,6 +241,8 @@ Agregando alineación  al elemento h2 y p
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-top: 4.8rem;
+  
 }
 
 /*Añadiendo estilos al boton de flecha flotante*/
