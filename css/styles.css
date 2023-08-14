@@ -294,6 +294,11 @@ main {
   border-style: none;
 }
 
+/*Agregando Pseudoclase a los elementos .boton-circle*/
+.boton-circle:hover {
+ cursor: pointer;
+}
+
 
 /* Agregando estilos al menu inferiore de la pagina*/
 .bottom-menu {
