@@ -191,45 +191,43 @@ p.text-strong-green {
 /*Añadiendo Animaciones a los parrafos*/
 .text-animation {
   animation: animation-paragraph 8s linear 1s infinite backwards;
-
-  
 }
 
 /*Seleccionando cada elemento html con la clase .text-animation por indice*/
-.text-animation:nth-child(1){
-    animation-delay: 0s;
-    opacity: 0;
+.text-animation:nth-child(1) {
+  animation-delay: 0s;
+  opacity: 0;
 }
 .text-animation:nth-child(2) {
-    animation-delay: 2s;
-    opacity: 0;
+  animation-delay: 2s;
+  opacity: 0;
 }
 .text-animation:nth-child(3) {
-    animation-delay: 4s;
-    opacity: 0;
+  animation-delay: 4s;
+  opacity: 0;
 }
 .text-animation:nth-child(4) {
-    animation-delay: 6s;
-    opacity: 0;
+  animation-delay: 6s;
+  opacity: 0;
 }
 
+@keyframes animation-paragraph {
+  /*Los KeyFrames permiten controlar el flujo de la animación*/
+  0% {
+    opacity: 0;
+    transform: translateY(0rem);
+  }
+  2.5%,
+  25% {
+    opacity: 1;
+    transform: translateY(-8rem);
+  }
 
-@keyframes animation-paragraph { /*Los KeyFrames permiten controlar el flujo de la animación*/
-    0% {
-        opacity: 0;
-        transform: translateY(0rem);
-    }
-    2.5%, 25% {
-        opacity: 1;
-        transform: translateY(-8rem);
-    }
-
-    27.5%, 100% {
-        opacity: 0;
-        transform: translateY(8rem);;
-    }
-
-    
+  27.5%,
+  100% {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
 }
 
 /*
@@ -240,7 +238,6 @@ Agregando alineación  al elemento h2 y p
   display: flex;
   flex-direction: column;
   margin-top: 4.8rem;
-
 }
 
 /*Añadiendo estilos al boton de flecha flotante*/
@@ -294,9 +291,8 @@ main {
 
 /*Agregando Pseudoclase a los elementos .boton-circle*/
 .boton-circle:hover {
- cursor: pointer;
+  cursor: pointer;
 }
-
 
 /* Agregando estilos al menu inferiore de la pagina*/
 .bottom-menu {
@@ -318,4 +314,3 @@ main {
   font-weight: 600;
   text-align: center;
 }
-
