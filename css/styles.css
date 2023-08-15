@@ -189,29 +189,27 @@ p.text-strong-green {
 }
 
 /*Añadiendo Animaciones a los parrafos*/
-p.text-animation {
-  animation-name: animation-paragraph; /*Nombre de la animación a la que haremos referencia en el KEYFRAME*/
-  animation-duration: 8s; /*Define la duración de la transición de animación*/
-  animation-timing-function: ease-out; /*Define la curva de aceleración de la animación*/
-  animation-iteration-count: infinite; /*Define las veces que se ejecutara la animación*/
-  animation-delay: 3s; /*Define el retardo de la animación al cargar la página*/
+.text-animation {
+  animation: animation-paragraph 8s linear 1s infinite backwards;
+
+  
 }
 
 /*Seleccionando cada elemento html con la clase .text-animation por indice*/
-p.text-animation:nth-child(1){
-    animation-delay: 3s;
+.text-animation:nth-child(1){
+    animation-delay: 0s;
     opacity: 0;
 }
-p.text-animation:nth-child(2) {
-    animation-delay: 7s;
+.text-animation:nth-child(2) {
+    animation-delay: 2s;
     opacity: 0;
 }
-p.text-animation:nth-child(3) {
-    animation-delay: 13s;
+.text-animation:nth-child(3) {
+    animation-delay: 4s;
     opacity: 0;
 }
-p.text-animation:nth-child(4) {
-    animation-delay: 19s;
+.text-animation:nth-child(4) {
+    animation-delay: 6s;
     opacity: 0;
 }
 
@@ -221,12 +219,12 @@ p.text-animation:nth-child(4) {
         opacity: 0;
         transform: translateY(0rem);
     }
-    25%, 50% {
+    2.5%, 25% {
         opacity: 1;
         transform: translateY(-8rem);
     }
 
-    75%, 100% {
+    27.5%, 100% {
         opacity: 0;
         transform: translateY(8rem);;
     }
