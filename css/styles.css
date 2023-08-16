@@ -131,6 +131,7 @@ header nav.navegacion-principal ul.nv-container li.boton {
 }
 header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
   color: rgb(17, 17, 17);
+  font-size: 1.6rem;
   text-align: center;
 }
 
@@ -306,7 +307,7 @@ Estructurando la navegacion de las imagenes y texto animados
 
 /*Agregando separación superior (top) al main*/
 main {
-  margin-top: 8rem;
+  margin-top: 3rem;
 }
 
 /*
