@@ -109,11 +109,13 @@ header nav.navegacion-principal ul.nv-container li.boton {
 .bg-boton-sesion:hover {
   background-color: rgba(17, 17, 17, 0.1);
   transition: all 85ms ease-out;
+  cursor: pointer;
 }
 
 .bg-boton:hover {
   background-color: rgba(17, 17, 17, 0.1);
   transition: all 85ms ease-out;
+  cursor: pointer;
 }
 
 /*Agregando estilos a cada boton de forma individual*/
