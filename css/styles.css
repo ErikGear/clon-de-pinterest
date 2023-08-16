@@ -173,6 +173,9 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
   display: flex;
   justify-content: space-between;
 }
+.navegacion-principal {
+  width: 80%;
+}
 .cabecera {
   display: flex;
   justify-content: space-between;
@@ -202,6 +205,12 @@ h2.home-title {
 .bg-icon:hover {
   background-color: rgba(17, 17, 17, 0.1);
   cursor: pointer;
+}
+
+.bg-boton-icon-item {
+  margin-top: 1.2rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 /*Definiendo estilos a la barra de busqueda*/
