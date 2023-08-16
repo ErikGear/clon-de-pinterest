@@ -188,12 +188,16 @@ p.text-strong-green {
   color: rgb(64, 122, 87);
 }
 
+
 /*Añadiendo Animaciones a los parrafos*/
+/*
 .text-animation {
   animation: animation-paragraph 8s linear 1s infinite backwards;
 }
+*/
 
 /*Seleccionando cada elemento html con la clase .text-animation por indice*/
+/*
 .text-animation:nth-child(1) {
   animation-delay: 0s;
   opacity: 0;
@@ -210,9 +214,11 @@ p.text-strong-green {
   animation-delay: 6s;
   opacity: 0;
 }
+*/
 
+/*Los KeyFrames permiten controlar el flujo de la animación*/
+/*
 @keyframes animation-paragraph {
-  /*Los KeyFrames permiten controlar el flujo de la animación*/
   0% {
     opacity: 0;
     transform: translateY(0rem);
@@ -229,6 +235,7 @@ p.text-strong-green {
     transform: translateY(8rem);
   }
 }
+*/
 
 /*
 Agregando alineación  al elemento h2 y p
@@ -250,6 +257,11 @@ div.bg-boton-flotante {
   margin-bottom: 1.6rem;
   border-radius: 50%;
   background-color: black;
+}
+
+div.bg-alignment {
+  display: flex;
+  justify-content: center;
 }
 
 /*
@@ -313,4 +325,57 @@ main {
   color: var(--textoCabecera);
   font-weight: 600;
   text-align: center;
+}
+
+/*Agregando animaciones a los .boton-circle*/
+.boton-animation {
+  animation: boton-animacion 8s linear 1s infinite backwards;
+}
+
+@keyframes boton-animacion {
+  0% {
+    
+  }
+  2.5%,
+  25% {
+    
+  }
+
+  27.5%,
+  100% {
+    
+  }
+}
+
+.boton-animation:nth-child(1) {
+  animation-delay: 0s;
+  background-color: rgb(0, 118, 211);
+}
+.boton-animation:nth-child(2) {
+  animation-delay: 2s;
+  background-color: rgb(97, 140, 123);
+}
+.boton-animation:nth-child(3) {
+  animation-delay: 4s;
+  background-color: rgb(194, 139, 0);
+}
+.boton-animation:nth-child(4) {
+  animation-delay: 6s;
+  background-color: rgb(64, 122, 87);
+}
+
+
+
+/*trabajando con las imagenes*/
+.card-image{
+  width: 25rem;
+  height: 35rem;
+  border-radius: 2.8rem;
+  object-fit: cover;
+}
+.image-verano1 {
+  background-image: url("../assets/images/verano1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
