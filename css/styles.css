@@ -81,7 +81,8 @@ Estilos para los botones de
 header nav.navegacion-principal ul.nv-container li.boton {
   border-radius: 2.4rem;
   width: 10.5rem;
-  height: 4rem;
+  height: 4.8rem;
+  padding: 1.2rem 1.6rem;
 }
 
 /*Agregando efecto de sombrado al pasar por encima de los botones*/
@@ -91,25 +92,49 @@ header nav.navegacion-principal ul.nv-container li.boton {
   align-items: center;
   border-radius: 2.4rem;
   width: 10.5rem;
-  height: 4rem;
+  height: 4.8rem;
+  padding: 1.2rem 1.6rem;
+}
+
+.bg-boton-sesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2.4rem;
+  width: 13rem;
+  height: 4.8rem;
+  padding: 1.2rem 1.6rem;
+}
+
+.bg-boton-sesion:hover {
+  background-color: rgba(17, 17, 17, 0.1);
+  transition: all 85ms ease-out;
 }
 
 .bg-boton:hover {
-  background-color: rgba(17, 17, 17, 0.4);
+  background-color: rgba(17, 17, 17, 0.1);
   transition: all 85ms ease-out;
 }
 
 /*Agregando estilos a cada boton de forma individual*/
 .bt-sesion {
-  background-color: #e60023;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: #efefef;
+  border-radius: 2.4rem;
+  width: 13rem;
+  height: 4.8rem;
 }
 header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
-  color: #ffffff;
+  color: rgb(17, 17, 17);
   text-align: center;
 }
 
 .bt-registro {
-  background-color: #efefef;
+  color: #ffff;
+  background-color: #e60023;
 }
 header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item {
   text-align: center;
@@ -243,12 +268,14 @@ p.text-strong-green {
 /*
 Agregando alineación  al elemento h2 y p
 */
+/*
 .text-ideas {
   position: relative;
   display: flex;
   flex-direction: column;
   margin-top: 4.8rem;
 }
+*/
 
 /*Añadiendo estilos al boton de flecha flotante*/
 /*
@@ -344,6 +371,7 @@ main {
   text-align: center;
 }
 */
+
 
 
 
