@@ -189,6 +189,25 @@ h2.home-title {
   text-align: center;
 }
 
+.bg-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+}
+
+.bg-icon:hover {
+  background-color: rgba(17, 17, 17, 0.1);
+  cursor: pointer;
+}
+
+/*
+Dando estilso al boton down-aarow-icon de la navegacionprincipal
+*/
+
 /*
 p.marquee-text {
   position: absolute;
