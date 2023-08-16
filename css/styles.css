@@ -204,6 +204,39 @@ h2.home-title {
   cursor: pointer;
 }
 
+/*Definiendo estilos a la barra de busqueda*/
+
+.search-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35rem;
+  height: 4.8rem;
+  border: 0.2rem solid #cdcdcd;
+  border-radius: 2.4rem;
+}
+
+.search-bar {
+  display: block;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+
+  /*Tipografia de la barra de busqueda*/
+  font-family: var(--fuenteCabecera);
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: normal;
+
+
+
+  /*Estilizando la barra de busqueda*/
+  border: none;
+  outline: none;
+
+}
+
+
 /*
 Dando estilso al boton down-aarow-icon de la navegacionprincipal
 */
