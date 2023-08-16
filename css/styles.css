@@ -236,6 +236,15 @@ h2.home-title {
 
 }
 
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 0.8rem;
+  margin-left: 1.6rem;
+}
+
 
 /*
 Dando estilso al boton down-aarow-icon de la navegacionprincipal
