@@ -60,24 +60,27 @@ header div.logo-container a.logo h1.titulo-principal {
   font-weight: 600;
 }
 
-/*Definiendo estilos s los enlaces de la navegación principal*/
-header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item {
+/*Definiendo estiloss los enlaces de la navegación principal*/
+header nav.navegacion-principal a.ng-item {
   color: var(--textoCabecera);
   font-family: var(--fuenteCabecera);
   font-weight: 600;
 }
 
 /*Agregando Pseudo clase a los elementos de la navegación principal*/
-header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item:hover {
+header nav.navegacion-principal a.ng-item:hover {
   text-decoration: none;
 }
 
 /*
-Estilos para los botones de
+Estilos para los botones de:
 - Iniciar Sesión
 - Registrate  
 */
-nav.navegacion-principal ul.nv-container li.boton {
+nav.navegacion-principal .boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2.4rem;
   width: 10.5rem;
   height: 4.8rem;
@@ -100,7 +103,7 @@ nav.navegacion-principal ul.nv-container li.boton {
   height: 4.8rem;
 }
 
-li.bt-sesion a.ng-item {
+.bt-sesion a.ng-item {
   color: rgb(17, 17, 17);
   font-size: 1.6rem;
   text-align: center;
@@ -111,7 +114,7 @@ li.bt-sesion a.ng-item {
   color: #ffff;
   background-color: #e60023;
 }
-li.bt-registro a.ng-item {
+.bt-registro a.ng-item {
   text-align: center;
 }
 
@@ -149,10 +152,10 @@ li.bt-registro a.ng-item {
 }
 
 /*Añadiendo Pseudo clases a los botones de Inciar Sesión y Registro*/
-li.bt-sesion a.ng-item:hover {
+.bt-sesion a.ng-item:hover {
   text-decoration: none;
 }
-li.bt-registro a.ng-item:hover {
+.bt-registro a.ng-item:hover {
   text-decoration: none;
 }
 
@@ -170,15 +173,11 @@ li.bt-registro a.ng-item:hover {
   margin-left: 0.4rem;
 }
 
-.navegacion-principal {
-  width: 50rem;
-}
 
-.navegacion-principal .nv-container {
+.navegacion-principal {
   display: flex;
   justify-content: space-between;
-}
-.navegacion-principal {
+  align-items: center;
   width: 90%;
 }
 .cabecera {
@@ -259,8 +258,6 @@ h2.home-title {
   /*Tipografia de la barra de busqueda*/
   font-family: var(--fuenteCabecera);
   font-size: 1.6rem;
-  font-weight: normal;
-  line-height: normal;
 
   /*Estilizando la barra de busqueda*/
   border: none;
@@ -477,6 +474,7 @@ main {
 
 /*trabajando con las imagenes*/
 .card-image {
+  display: block;
   width: 25rem;
   height: 35rem;
   border-radius: 2.8rem;
@@ -484,22 +482,18 @@ main {
 }
 
 .bg-card-container {
-  
+  display: inline-block;
   width: 25rem;
   height: 35rem;
   border-radius: 2.8rem;
 }
 
-.bg-card-container:hover {
-  background-color: rgba(51, 51, 51, 0.8);
-  transition: all 2ms ease-out;
+.card-image:hover {
+  background: linear-gradient(rgba(5,7,12, 0.75));
   cursor: pointer;
 }
 
+
 /*centrando las imagenes*/
 
-.container {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 2rem;
-}
+
