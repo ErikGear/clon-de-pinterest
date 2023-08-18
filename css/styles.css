@@ -116,7 +116,7 @@ li.bt-registro a.ng-item {
 }
 
 /*Agregando efecto de sombrado al pasar por encima de los botones*/
-.bg-boton {
+.bg-boton-registro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -142,7 +142,7 @@ li.bt-registro a.ng-item {
   cursor: pointer;
 }
 
-.bg-boton:hover {
+.bg-boton-registro:hover {
   background-color: rgba(17, 17, 17, 0.1);
   transition: all 85ms ease-out;
   cursor: pointer;
