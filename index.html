@@ -21,37 +21,46 @@
         </div>
         <nav class="navegacion-principal">
             <ul class="nv-container">
-                <li class="ul-item">
-                    <a class="ng-item" href="#" target="_blank">Hoy</a>
-                </li>
-                <li class="ul-item">
-                    <a class="ng-item" href="#" target="_blank">Exporar</a>
-                </li>
+                <div class="menu-left">
+                    <li class="ul-item">
+                        <div class="bg-hoy">
+                            <a class="ng-item" href="#" target="_blank">Hoy</a>
+                        </div>
+                    </li>
+                    <li class="ul-item">
+                        <div class="bg-explorar">
+                            <a class="ng-item" href="#" target="_blank">Exporar</a>
+                        </div>
+                    </li>
+                </div>
                 <li class="">
                     <form class="search-frame" action="#" method="post">
                         <div class="icon-container">
                             <img src="./assets/icons/search_icon.svg" alt="">
                         </div>
-                            <input class="search-bar" type="text" placeholder="Encuentra ideas sobre cenas fáciles, moda, etc.">
+                        <input class="search-bar" type="text"
+                            placeholder="Encuentra ideas sobre cenas fáciles, moda, etc.">
                     </form>
                 </li>
-                <li class="ul-item bt-sesion">
-                    <div class="bg-boton-sesion">
-                        <a class="ng-item" href="#" target="">Inciar Sesión</a>
-                    </div>
-                </li>
-                <li class="ul-item boton bt-registro">
-                    <div class="bg-boton">
-                        <a class="ng-item" href="#" target="">Regístrate</a>
-                    </div>
-                </li>
-                <li class="bg-boton-icon-item">
-                    <div class="bg-icon">
-                        <a href="#" target="">
-                            <img src="./assets/icons/down-arrow_icon.svg" alt="">
-                        </a>
-                    </div>
-                </li>
+                <div class="menu-right">
+                    <li class="ul-item bt-sesion">
+                        <div class="bg-boton-sesion">
+                            <a class="ng-item" href="#" target="">Inciar Sesión</a>
+                        </div>
+                    </li>
+                    <li class="ul-item boton bt-registro">
+                        <div class="bg-boton">
+                            <a class="ng-item" href="#" target="">Regístrate</a>
+                        </div>
+                    </li>
+                    <li class="bg-boton-icon-item">
+                        <div class="bg-icon">
+                            <a href="#" target="">
+                                <img src="./assets/icons/down-arrow_icon.svg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </div>
             </ul>
         </nav>
     </header>
@@ -93,7 +102,7 @@
             -->
 
 
-            <div class="">
+            <div class="bg-container">
                 <figure class="images-flex-container">
                     <img class="card-image" src="./assets/images/verano1.jpg"></img>
                     <img class="card-image" src="./assets/images/verano2.jpg"></img>

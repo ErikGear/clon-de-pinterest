@@ -174,12 +174,32 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
   justify-content: space-between;
 }
 .navegacion-principal {
-  width: 80%;
+  width: 90%;
 }
 .cabecera {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/*Agregando efecto hover al los elementos HOY y EXPLORAR*/
+.bg-hoy{
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.bg-explorar {
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+}
+
+.bg-hoy:hover{
+  background-color: rgba(17, 17, 17, 0.1);
+  cursor: pointer;
+}
+.bg-explorar{
+  background-color: rgba(17, 17, 17, 0.1);
+  cursor: pointer;
 }
 
 /*Definiedo estilos a los elementos de la sección principal*/
@@ -219,7 +239,7 @@ h2.home-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35rem;
+  max-width: 47rem;
   height: 4.8rem;
   border: 0.2rem solid #cdcdcd;
   border-radius: 2.4rem;
@@ -252,6 +272,16 @@ h2.home-title {
 
   margin-right: 0.8rem;
   margin-left: 1.6rem;
+}
+
+.menu-left{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-right{
+  display: flex;
+  justify-content: space-between;
 }
 
 
