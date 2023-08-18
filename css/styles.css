@@ -77,11 +77,39 @@ Estilos para los botones de
 - Iniciar Sesión
 - Registrate  
 */
-header nav.navegacion-principal ul.nv-container li.boton {
+nav.navegacion-principal ul.nv-container li.boton {
   border-radius: 2.4rem;
   width: 10.5rem;
   height: 4.8rem;
   padding: 1.2rem 1.6rem;
+}
+
+
+
+/*Agregando estilos a cada boton de forma individual*/
+.bt-sesion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #efefef;
+  border-radius: 2.4rem;
+  width: 13rem;
+  height: 4.8rem;
+}
+
+li.bt-sesion a.ng-item {
+  color: rgb(17, 17, 17);
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.bt-registro {
+  color: #ffff;
+  background-color: #e60023;
+}
+li.bt-registro a.ng-item {
+  text-align: center;
 }
 
 /*Agregando efecto de sombrado al pasar por encima de los botones*/
@@ -115,32 +143,6 @@ header nav.navegacion-principal ul.nv-container li.boton {
   background-color: rgba(17, 17, 17, 0.1);
   transition: all 85ms ease-out;
   cursor: pointer;
-}
-
-/*Agregando estilos a cada boton de forma individual*/
-.bt-sesion {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-color: #efefef;
-  border-radius: 2.4rem;
-  width: 13rem;
-  height: 4.8rem;
-}
-
-li.bt-sesion a.ng-item {
-  color: rgb(17, 17, 17);
-  font-size: 1.6rem;
-  text-align: center;
-}
-
-.bt-registro {
-  color: #ffff;
-  background-color: #e60023;
-}
-li.bt-registro a.ng-item {
-  text-align: center;
 }
 
 /*Añadiendo Pseudo clases a los botones de Inciar Sesión y Registro*/
