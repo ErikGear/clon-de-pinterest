@@ -128,7 +128,8 @@ header nav.navegacion-principal ul.nv-container li.boton {
   width: 13rem;
   height: 4.8rem;
 }
-header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
+
+li.bt-sesion a.ng-item {
   color: rgb(17, 17, 17);
   font-size: 1.6rem;
   text-align: center;
@@ -138,15 +139,15 @@ header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item {
   color: #ffff;
   background-color: #e60023;
 }
-header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item {
+li.bt-registro a.ng-item {
   text-align: center;
 }
 
 /*Añadiendo Pseudo clases a los botones de Inciar Sesión y Registro*/
-header nav.navegacion-principal ul.nv-container li.bt-sesion a.ng-item:hover {
+li.bt-sesion a.ng-item:hover {
   text-decoration: none;
 }
-header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
+li.bt-registro a.ng-item:hover {
   text-decoration: none;
 }
 
@@ -476,17 +477,24 @@ main {
   border-radius: 2.8rem;
   object-fit: cover;
 }
-.image-verano1 {
-  background-image: url("../assets/images/verano1.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.bg-card-container {
+  
+  width: 25rem;
+  height: 35rem;
+  border-radius: 2.8rem;
+}
+
+.bg-card-container:hover {
+  background-color: rgba(51, 51, 51, 0.8);
+  transition: all 2ms ease-out;
+  cursor: pointer;
 }
 
 /*centrando las imagenes*/
 
 .container {
-  width: 90%;
+  max-width: 120rem;
   margin: 0 auto;
   padding: 2rem;
 }
