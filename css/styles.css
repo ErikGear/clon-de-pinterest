@@ -87,6 +87,8 @@ nav.navegacion-principal ul.nv-container li.boton {
 
 
 /*Agregando estilos a cada boton de forma individual*/
+
+/*Boton SESIÓN*/
 .bt-sesion {
   display: flex;
   justify-content: center;
@@ -104,6 +106,7 @@ li.bt-sesion a.ng-item {
   text-align: center;
 }
 
+/*Boton REGISTRO*/
 .bt-registro {
   color: #ffff;
   background-color: #e60023;
