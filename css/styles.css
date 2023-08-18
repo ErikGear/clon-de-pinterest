@@ -481,7 +481,7 @@ main {
   object-fit: cover;
 }
 
-.bg-card-container {
+.card-container {
   display: inline-block;
   width: 25rem;
   height: 35rem;
