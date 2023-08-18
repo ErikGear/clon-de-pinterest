@@ -69,8 +69,7 @@ header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item {
 
 /*Agregando Pseudo clase a los elementos de la navegación principal*/
 header nav.navegacion-principal ul.nv-container li.ul-item a.ng-item:hover {
-  text-decoration: underline;
-  transition: all 85ms ease-out;
+  text-decoration: none;
 }
 
 /*
@@ -123,7 +122,7 @@ header nav.navegacion-principal ul.nv-container li.boton {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   background-color: #efefef;
   border-radius: 2.4rem;
   width: 13rem;
@@ -183,7 +182,7 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
 }
 
 /*Agregando efecto hover al los elementos HOY y EXPLORAR*/
-.bg-hoy{
+.bg-hoy {
   padding: 0.8rem;
   border-radius: 0.8rem;
 }
@@ -193,11 +192,11 @@ header nav.navegacion-principal ul.nv-container li.bt-registro a.ng-item:hover {
   border-radius: 0.8rem;
 }
 
-.bg-hoy:hover{
+.bg-hoy:hover {
   background-color: rgba(17, 17, 17, 0.1);
   cursor: pointer;
 }
-.bg-explorar{
+.bg-explorar:hover {
   background-color: rgba(17, 17, 17, 0.1);
   cursor: pointer;
 }
@@ -257,12 +256,9 @@ h2.home-title {
   font-weight: normal;
   line-height: normal;
 
-
-
   /*Estilizando la barra de busqueda*/
   border: none;
   outline: none;
-
 }
 
 .icon-container {
@@ -274,16 +270,15 @@ h2.home-title {
   margin-left: 1.6rem;
 }
 
-.menu-left{
+.menu-left {
   display: flex;
   justify-content: space-between;
 }
 
-.menu-right{
+.menu-right {
   display: flex;
   justify-content: space-between;
 }
-
 
 /*
 Dando estilso al boton down-aarow-icon de la navegacionprincipal
@@ -318,7 +313,6 @@ p.text-strong-green {
   color: rgb(64, 122, 87);
 }
 */
-
 
 /*Añadiendo Animaciones a los parrafos*/
 /*
@@ -475,11 +469,8 @@ main {
 }
 */
 
-
-
-
 /*trabajando con las imagenes*/
-.card-image{
+.card-image {
   width: 25rem;
   height: 35rem;
   border-radius: 2.8rem;
@@ -490,4 +481,12 @@ main {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/*centrando las imagenes*/
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
 }
