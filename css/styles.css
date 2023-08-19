@@ -264,7 +264,7 @@ h2.home-title {
 }
 @media (min-width: 768px) {
   .search-bar {
-
+    width: 120rem;
   }
 }
 
@@ -482,7 +482,7 @@ main {
   width: 100%;
   height: 100%;
   border-radius: 2.8rem;
-  
+  object-fit: cover;
 }
 
 .card-container {
