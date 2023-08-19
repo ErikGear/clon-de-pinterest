@@ -58,6 +58,9 @@ header div.logo-container a.logo h1.titulo-principal {
   font-family: var(--fuenteCabecera);
   font-size: 2rem;
   font-weight: 600;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /*Definiendo estiloss los enlaces de la navegación principal*/
@@ -166,11 +169,18 @@ nav.navegacion-principal .boton {
   display: inline-block;
 }
 
+
 .logo-container .logo {
   display: flex;
   justify-content: center;
   margin-left: 1rem;
 }
+
+.logo-container{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .titulo-principal {
   margin-left: 0.4rem;
 }
