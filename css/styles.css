@@ -90,8 +90,6 @@ nav.navegacion-principal .boton {
   padding: 1.2rem 1.6rem;
 }
 
-
-
 /*Agregando estilos a cada boton de forma individual*/
 
 /*Boton SESIÓN*/
@@ -106,6 +104,7 @@ nav.navegacion-principal .boton {
   height: 4.8rem;
 
   margin-right: 1.2rem;
+  margin-left: 0.8rem;
 }
 
 .bt-sesion a.ng-item {
@@ -169,14 +168,13 @@ nav.navegacion-principal .boton {
   display: inline-block;
 }
 
-
 .logo-container .logo {
   display: flex;
   justify-content: center;
   margin-left: 1rem;
 }
 
-.logo-container{
+.logo-container {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -184,7 +182,6 @@ nav.navegacion-principal .boton {
 .titulo-principal {
   margin-left: 0.4rem;
 }
-
 
 .navegacion-principal {
   display: flex;
@@ -205,8 +202,6 @@ nav.navegacion-principal .boton {
 
   margin-left: 0.8rem;
   margin-right: 0.8rem;
-
-  
 }
 
 .bg-explorar {
@@ -215,8 +210,6 @@ nav.navegacion-principal .boton {
 
   margin-left: 0.8rem;
   margin-right: 0.8rem;
-
-  
 }
 
 .bg-hoy:hover {
@@ -269,6 +262,9 @@ h2.home-title {
   height: 4.8rem;
   border: 0.2rem solid #cdcdcd;
   border-radius: 2.4rem;
+
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .search-bar {
@@ -522,6 +518,13 @@ main {
 }
 
 .bg-card:hover {
-  background: rgba(5,7,12, 0.75);
+  background: rgba(5, 7, 12, 0.75);
   cursor: pointer;
+}
+
+/*Agregando diseño GRID*/
+.images-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.6rem;
 }
